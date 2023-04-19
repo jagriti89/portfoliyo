@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color:white;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    padding-bottom: 33px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: blue;*/
+    width: 90vw;
+}
+
+.continer1 {
+    display: flex;
+    background-image: url('project13.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    
+}
+
+.infocontainer {
+    background-color: rgb(189, 179, 179);
+    height: 50vh;
+    width: 140vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 65px;
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+}
+
+.button {
+    margin: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: white;
+    color: dodgerblue;
+    font-size: 21px;
+    margin: 20px;
+    cursor: pointer;
+}
+.btn-sn{
+    font-size: 14px;
+    padding:10px 19px;
+    margin:12px 0;
+    width: 120px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: dodgerblue;
+    width: 120px;
+}
+
+.devPic img {
+    height: 50vh;
+
+}
+
+.contactform {
+    padding-top: 114px;
+    padding: 0 34px;
+
+}
+
+.contactform h1 {
+    text-align: center;
+
+}
+
+.contactform div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.form-check {
+    flex-direction: row;
+    
+    
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+
+}
+h1{
+    margin:24px;
+    padding:12px;
+}
+.intro p{
+margin:12px;
+
+}
+.intro h2{
+    margin: 4px;
+    padding-left: 2px;
+
+}
+.skillcontainer{
+    padding:2px;
+}
+.skill{
+    width:265px;
+    height: 6px;
+    background-color: red;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.hundered{
+    width: 265px;
+    background-color: blue;
+}
+.fifty{
+    width:125px;
+    background-color: blueviolet;
+
+}
+.t5{
+    width:75px;
+    background-color: brown;
+}
+.project{
+    margin: 3px;
+    padding: 2px;
+}
+.projectone h1{
+    margin: 3px;
+    padding: 3px;
+}
+.projectcontainer h1{
+    text-decoration: underline;
+}
+.link{
+    color: red;
+}
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 2px;
+}
+.cross{
+margin-left: 175px;
+margin-top: 2px;
+}
+.heading{
+    text-align: center;
+    
+}
